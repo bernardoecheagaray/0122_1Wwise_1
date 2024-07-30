@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EB0307E8-618B-457E-BF48-240F45CF2A21}" SchemaVersion="119" RootDocumentID="{11CC5D08-6343-4964-B02D-4343CFF33C56}" ParentDocumentID="{11CC5D08-6343-4964-B02D-4343CFF33C56}">
+	<AudioObjects>
+		<WorkUnit Name="ali" ID="{EB0307E8-618B-457E-BF48-240F45CF2A21}" OwnerID="{11CC5D08-6343-4964-B02D-4343CFF33C56}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="drone" ID="{AA98E578-2345-4CE3-AAF5-704893BF8F72}" ShortID="74214178">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2BA58CCF-1E6E-490E-AEC7-C58FD8C619C4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5E9D4A1F-527A-46D7-82A1-506C8C3667EB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Designed, Drone, Tuvan Chant Drone SND76485 3" ID="{43CCF44B-1D44-465F-8971-59A737DC3C71}">
+							<Language>SFX</Language>
+							<AudioFile>Designed, Drone, Tuvan Chant Drone SND76485 3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="638991554"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Designed, Drone, Tuvan Chant Drone SND76485 3" ID="{43CCF44B-1D44-465F-8971-59A737DC3C71}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
